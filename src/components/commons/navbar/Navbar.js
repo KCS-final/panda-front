@@ -12,9 +12,9 @@ function Navbar() {
   };
   return (
     <nav class="navbar navbar-expand">
-      <div className={`container-fluid ${styles.padding}`} style={pad}>
+      <div className={`container-fluid ${styles.responsivePadding}`} style={pad}>
         <a className="navbar-brand" href="#">
-          <img src={pandaLogo} className={styles.logoImg} alt="" />
+        <img src={pandaLogo} className={`${styles.logoImg} ${styles['small-logo']}`} alt="" />
         </a>
         <div className="collapse navbar-collapse" id="">
           <ul className={`navbar-nav `}>
@@ -57,7 +57,7 @@ function Navbar() {
                 <img className={styles.img} width="40px" src={bell} alt="" />
               </button>
             </li>
-            <li class="dropdown nav-item me-5">
+            <li className={`dropdown nav-item me-5 ${styles['no-margin-end']}`}>
               <a
                 class="dropdown-toggle"
                 href="#"

@@ -148,11 +148,24 @@
 
 @media screen and (max-width: 625px)
  {
-
     .paragraph{
        display: none;
     }
-
 }
-
-
+@media (max-width: 475px) {
+    .responsivePadding {
+    padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+@media (max-width: 370px) {
+  .no-margin-end {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 370px) {
+    .small-logo {
+      width: 4rem !important;
+    }
+  }
+  
