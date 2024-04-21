@@ -151,6 +151,7 @@
     .paragraph{
        display: none;
     }
+
 }
 @media (max-width: 475px) {
     .responsivePadding {
@@ -167,5 +168,9 @@
     .small-logo {
       width: 4rem !important;
     }
+    .dbg {
+        top: -40px !important;  /* 원하는 위치 */
+      }
   }
-  
+
+
